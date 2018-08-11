@@ -1,22 +1,35 @@
 <html>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>News App</title>
     <style type="text/css">
-        .feedItem{
+        .feedItem {
             border: 1px solid black;
             padding: 10px;
             margin: 10px;
             width: 500px;
         }
+
+        #date {
+            color: blue;
+        }
+
     </style>
 
 </head>
 <body>
+<header>
+    <H1>News App
+        <span id="date"></span>
+    </H1>
+</header>
+<script>
+    document.getElementById("date").innerHTML = new Date().toDateString();
+</script>
 
-<span id="container"></span>
+<div id="container"></div>
 
 <script src="bundle.js"></script>
-
+<footer>Contact us <a href="mailto:email@email.com">email@email.com</a></footer>
 </body>
 </html>
