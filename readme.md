@@ -8,8 +8,10 @@ NPM and Nodejs installed
 
 ## Installing
 
-1. go to project directory (cd %projectDir%)
-2. npm install
-3. npm run build
-4. npm run server
+bash
+
+$ cd %projectDir%)
+$ npm install
+$ npm run build
+$ npm run server
 
