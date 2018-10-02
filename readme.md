@@ -10,7 +10,7 @@ NPM and Nodejs installed
 
 bash
 
-$ cd %projectDir%)
+$ cd %projectDir%
 $ npm install
 $ npm run build
 $ npm run server
